@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.5 on win32)" generated="2024-09-18T19:25:09.640477" rpa="false" schemaversion="5">
+<suite id="s1" name="Main Suite" source="C:\Users\prave\RobotFramework\pythonProject\TestSuite\main_suite.robot">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-09-18T19:25:10.337045" level="INFO">Starting Web Application Automation Test Suite</msg>
+<arg>Starting Web Application Automation Test Suite</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-18T19:25:10.337045" elapsed="0.000000"/>
+</kw>
+<test id="s1-t1" name="Include Login and Logout Tests" line="8">
+<kw name="Run Tests">
+<msg time="2024-09-18T19:25:10.339539" level="FAIL">No keyword with name 'Run Tests' found.</msg>
+<arg>../TestCases/login_logout.robot</arg>
+<status status="FAIL" start="2024-09-18T19:25:10.339539" elapsed="0.000000">No keyword with name 'Run Tests' found.</status>
+</kw>
+<status status="FAIL" start="2024-09-18T19:25:10.339539" elapsed="0.000000">No keyword with name 'Run Tests' found.</status>
+</test>
+<test id="s1-t2" name="Include User Management Tests" line="11">
+<kw name="Run Tests">
+<msg time="2024-09-18T19:25:10.345901" level="FAIL">No keyword with name 'Run Tests' found.</msg>
+<arg>../TestCases/user_management.robot</arg>
+<status status="FAIL" start="2024-09-18T19:25:10.345901" elapsed="0.000000">No keyword with name 'Run Tests' found.</status>
+</kw>
+<status status="FAIL" start="2024-09-18T19:25:10.339539" elapsed="0.006362">No keyword with name 'Run Tests' found.</status>
+</test>
+<test id="s1-t3" name="Include Search and Filter Tests" line="14">
+<kw name="Run Tests">
+<msg time="2024-09-18T19:25:10.349146" level="FAIL">No keyword with name 'Run Tests' found.</msg>
+<arg>../TestCases/search_filter.robot</arg>
+<status status="FAIL" start="2024-09-18T19:25:10.349146" elapsed="0.000000">No keyword with name 'Run Tests' found.</status>
+</kw>
+<status status="FAIL" start="2024-09-18T19:25:10.345901" elapsed="0.003245">No keyword with name 'Run Tests' found.</status>
+</test>
+<test id="s1-t4" name="Include Responsive Design Tests" line="17">
+<kw name="Run Tests">
+<msg time="2024-09-18T19:25:10.349146" level="FAIL">No keyword with name 'Run Tests' found.</msg>
+<arg>../TestCases/responsive_design.robot</arg>
+<status status="FAIL" start="2024-09-18T19:25:10.349146" elapsed="0.000000">No keyword with name 'Run Tests' found.</status>
+</kw>
+<status status="FAIL" start="2024-09-18T19:25:10.349146" elapsed="0.000000">No keyword with name 'Run Tests' found.</status>
+</test>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-09-18T19:25:10.358740" level="INFO">Completed Web Application Automation Test Suite</msg>
+<arg>Completed Web Application Automation Test Suite</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-18T19:25:10.349146" elapsed="0.009594"/>
+</kw>
+<status status="FAIL" start="2024-09-18T19:25:09.640477" elapsed="0.718263"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="4" skip="0" id="s1" name="Main Suite">Main Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
